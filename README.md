@@ -17,14 +17,21 @@ Inside the code, there are also comments of what I'm doing, and why I am doing i
 # 3 - Conclusions and Insights:
 
 ● The fraudulent transactions types are Transfer and Cash out.
+
 ● There are a total of 8,213 fraudulent transactions, constituting 0.12908% of the total
 transactions.
+
 ● The mean transaction amount for non-fraudulent transactions is €178.20K. In
 contrast, the mean transaction amount for fraudulent transactions is €1.47M, nearly 8 times higher. This significant difference suggests the potential for implementing additional verification steps for transactions exceeding €1M.
+
 ● The fraud flag only correctly identified 0.19% of the actual fraudulent transactions. This low accuracy raises concerns about its reliability and suggests the need for an improved detection mechanism.
+
 ● 28 accounts have been involved in both fraudulent and non-fraudulent transactions. Notably, 10 accounts made a non-fraudulent transaction after a fraudulent one, totaling €1.56M. This poses a high risk, and prompt account blocking is recommended once a fraudulent transaction is detected.
+
 ● No user has engaged in more than one fraudulent transaction.
+
 ● Fraudulent transactions are slightly more common on Wednesdays.
+
 ● There is no evidence indicating that fraudulent transactions occur at specific hours.
  
 # 4- Recommendations:
