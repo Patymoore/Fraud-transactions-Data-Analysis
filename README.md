@@ -15,6 +15,7 @@ I chose Python for the analysis of the dataset in combination with Jupyter Noteb
 Inside the code, there are also comments of what I'm doing, and why I am doing it.
 
 # 3 - Conclusions and Insights:
+
 ● The fraudulent transactions types are Transfer and Cash out.
 ● There are a total of 8,213 fraudulent transactions, constituting 0.12908% of the total
 transactions.
